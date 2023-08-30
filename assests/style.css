@@ -1,5 +1,293 @@
-*
-margin
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background: black;
+}
+label.logo
 {
-    border: 0;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 0 20px;
+    line-height: 80px;
+}
+nav ul{
+    float: right;
+    text-align: center;
+    margin-right: 50px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px;
+    
+
+}
+nav li{
+    display: inline-block;
+    margin: 0px 10px;
+    line-height: 80px;
+    justify-content: space-around;
+}
+nav a{
+    color: rgb(218, 209, 209);
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 0px 30px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    border: 1px solid white;
+    transition: .5s;
+}
+.text{
+    justify-content: center;
+    text-align: center;
+    padding-right: 700px;
+    color: white;
+    text-align: left;
+    padding-left: 100px;
+    font-size: larger;
+}
+.img{
+    float: right;
+    width: 35%;
+    height: 350px;
+    padding-bottom: 80px;
+    padding-right: 100px;
+    
+    
+}
+button
+{
+    float: center;
+    justify-content: right;
+    color: rgb(8, 2, 2);
+    padding: 10px;
+    border-radius: 900px;
+    
+}
+button.active,button:hover
+{
+    border: 1px solid white;
+    transition: .5s;
+    
+}
+.side{
+    width: 150px;
+    height: 25px;
+    padding-left: 50px;
+}
+.buttonaside
+{
+    z-index: 1;
+    width: 20px;
+    height: 50px;
+}
+.top
+{
+    width: 50px;
+    height: 50px;
+    padding-left:10px ;
+    position: relative;
+    clip-path: circle();
+    top: 15px;
+    
+}
+.top-button{
+    padding-left: 200px;
+    float: right;
+}
+.top-button-second{
+    padding-left: 20px;
+}
+.boxes
+{
+   display: flex;
+   border: solid black;
+   padding: 50px 0px 0px 150px;
+   background-color: black;
+   align-items: center;
+   
+}
+.boxes .box-1
+{
+   width: 40%;
+   border: 2px solid white;
+   background-color: #dff0b1;
+   border-radius: 10px;
+   color: black;
+   display: inline-flex;
+   align-items: center;
+   padding: 10px;
+
+}
+.boxes .box-1 span
+{
+   font-weight: 800;
+}
+.boxes .box-1 img
+{
+    width: 30px;
+    height: 30px;
+    clip-path: circle();
+    display: flex;
+}
+.boxes .box-2
+{
+   width: 35%;
+   border: 2px solid white;
+   background-color:#e8e6a5;
+   border-radius: 10px;
+   color: black;
+   display: inline-flex;
+   align-items: center;
+   padding: 10px;
+}
+.boxes .box-2 span
+{
+   font-weight: 800;
+}
+.boxes .box-2 img
+{
+    width: 30px;
+    height: 30px;
+    clip-path: circle();
+    display: flex;
+    background-color: black;
+}
+.boxes .box-3
+{
+   width: 40%;
+   border: 2px solid white;
+   background-color: azure;
+   border-radius: 10px;
+   color: black;
+   display: inline-flex;
+   align-items: center;
+   padding: 20px;
+}
+.boxes .box-3 span
+{
+   font-weight: 800;
+}
+.boxes .box-3 img
+{
+    width: 30px;
+    height: 30px;
+    clip-path: circle();
+    display: flex;
+}
+.boxes .box-1 span{
+    clip-path: ellipse();
+}
+.end
+{
+    padding: 40px;
+    position: relative;
+    display: flex;
+    background-color: white;
+
+}
+.end .timing
+{
+   border: 15px;
+   width: 15%;
+   border-radius: 40px;
+   background-color: black;
+   color: #fff;
+   padding-top: 20px;
+   text-align: center;
+   
+}
+.end .timing span
+{
+    background-color: #fff;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
+.end .content 
+{
+    border: 30px;
+    width:50%;
+    
+}
+.end .content h2
+{
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+}
+.button
+{
+   width: 20%;
+   padding: 20px;   
+   display: flex;
+   
+}
+.end .button .btn-1
+{
+   width:60px;
+}
+.end .button .btn-2
+{
+   width: 40px;
+   
+}
+.end .button .btn-3
+{
+   width: 60px;
+}
+.end .button input
+{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #ccc611;
+    border: solid white;
+    color: black;
+
+   
+}
+.end .contact
+{
+    padding: 10px;
+    width: 10%;
+}
+.end .contact input
+{
+    padding:20px;
+    border-radius: 30px;
+    background-color: #ccc611;
+    border: solid white;
+}
+.end .images 
+{
+    display: flex;
+    padding: 20px;
+    
+}
+.end .images img
+{
+    width: 40px;
+    height: 40px;
+    clip-path: circle();
+   
 }
